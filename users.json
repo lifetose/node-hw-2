@@ -1,36 +1,36 @@
 [
   {
-    "id": 6,
-    "name": "ahahahah",
-    "email": "bla@gmail.com",
-    "password": "123456"
+    "id": "7baaeaa8-014b-42fb-b8bc-da1d00b4e511",
+    "name": "bla123",
+    "email": "bla123@gmail.com",
+    "password": "bla123"
   },
   {
-    "id": 7,
+    "id": "7baaeaa8-014b-42fb-b8bc-da1d00b4e512",
     "name": "Denis",
     "email": "denchik@gmail.com",
     "password": "sdf555"
   },
   {
-    "id": 8,
+    "id": "7baaeaa8-014b-42fb-b8bc-da1d00b4e513",
     "name": "Sergey",
     "email": "BigBoss@gmail.com",
     "password": "ccc322"
   },
   {
-    "id": 9,
+    "id": "7baaeaa8-014b-42fb-b8bc-da1d00b4e514",
     "name": "Angela",
     "email": "lala@gmail.com",
     "password": "cdd343"
   },
   {
-    "id": 10,
+    "id": "7baaeaa8-014b-42fb-b8bc-da1d00b4e515",
     "name": "Irina",
     "email": "irka7@gmail.com",
     "password": "kkk222"
   },
   {
-    "id": "7baaeaa8-014b-42fb-b8bc-da1d00b4e553",
+    "id": "7baaeaa8-014b-42fb-b8bc-da1d00b4e516",
     "name": "Sasha",
     "email": "sasha@gmail.com",
     "password": "123456"
