@@ -63,10 +63,11 @@ app.put('/users/:userId', validateUser, (req, res) => {
 
     const users = readUsersFromFile()
 
-    const userIndex = users.findIndex((user) => user.id === Number(userId))
+    const userIndex = users.findIndex((user) => user.id === userId)
     if (userIndex === -1) {
       return res.status(404).send('User not found')
     }
+    console.log(req.body)
 
     const { name, email, password } = req.body
     users[userIndex].name = name
@@ -93,7 +94,7 @@ app.get('/users/:userId', (req, res) => {
   try {
     const userId = req.params.userId
     const users = readUsersFromFile()
-    const user = users.find((user) => user.id === Number(userId))
+    const user = users.find((user) => user.id === userId)
     if (!user) {
       return res.status(404).send('User not found')
     }
@@ -107,7 +108,7 @@ app.delete('/users/:userId', (req, res) => {
   try {
     const userId = req.params.userId
     const users = readUsersFromFile()
-    const userIndex = users.findIndex((user) => user.id === Number(userId))
+    const userIndex = users.findIndex((user) => user.id === userId)
     if (userIndex === -1) {
       return res.status(404).send('User not found')
     }
